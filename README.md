@@ -2,7 +2,6 @@
 
 A complete end-to-end data science project focused on understanding and forecasting household electricity usage using the *Individual Household Electric Power Consumption* dataset. The project includes Exploratory Data Analysis (EDA), supervised forecasting models, unsupervised anomaly detection, usage-based clustering, and a simple rule-based AI module.
 
----
 
 ## Dataset
 
@@ -21,7 +20,6 @@ Link: [https://archive.ics.uci.edu/dataset/235/individual+household+electric+pow
 * Sub_metering_2
 * Sub_metering_3
 
----
 
 # Task 1 — Exploratory Data Analysis (EDA)
 
@@ -38,7 +36,7 @@ Link: [https://archive.ics.uci.edu/dataset/235/individual+household+electric+pow
 * Distribution and boxplots
 * Daily and hourly pattern analysis (heatmaps and line trends)
 
----
+
 
 # Task 2 — Supervised Learning
 
@@ -51,7 +49,7 @@ Link: [https://archive.ics.uci.edu/dataset/235/individual+household+electric+pow
 * Evaluated each model using time-series metrics including MAE, RMSE, and MAPE.
 * Compared predicted vs actual Global_active_power through visualization.
 
----
+
 
 # Task 3 — Unsupervised Learning
 
@@ -76,7 +74,7 @@ Objective: identify unusual consumption behaviors or sudden spikes/drops.
 * Days with moderate or normal consumption
 * High-usage or outlier days due to abnormal load patterns
 
----
+
 
 # Task 4 — Rule-Based AI
 
@@ -98,10 +96,10 @@ A simple rule-based AI module classifies predicted next-hour power consumption i
 
 ### Example Output
 
-```
+
 Predicted Global Active Power: 4.89 kW
 Category: High Usage
 Suggestion: High consumption detected. Avoid running heavy appliances simultaneously.
-```
+
 
 
